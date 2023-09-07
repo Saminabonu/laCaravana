@@ -1,0 +1,73 @@
+.modal{
+     width: 100%;
+     height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -1600px;
+    transition: all 0.5s linear;
+}
+.show{
+    right: 0;
+}
+.showModal{
+    background-color: #000;
+    margin-top: 50px;
+    padding: 54px 34px 320px 81px;
+    color: #fff;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 54px;
+}
+.box ul{
+    padding-top: 20px;
+}
+.box ul a{
+    color: #FFF;
+text-align: center;
+font-family: Ruda;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px;
+}
+.modal_menu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.meals{
+    padding-top: 45px;
+   
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.meals .meals_info{
+    width: 300px;
+}
+.meals_info .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meals_info .title h4, .meals_info .title span{
+    color: #F2C94C;
+font-family: Ruda;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+/* line-height: 0px; */
+}
+.meals_info p{
+    color: #FFF;
+font-family: Ruda;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 1.8px;
+}

@@ -1,0 +1,42 @@
+.contact {
+    max-width: 100%;
+    height: 944px;
+    background-image: url("../img/contacts/contactsBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts .line {
+    height: 4px;
+    margin-top: 30px;
+}
+
+.contacts .contacts_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.contacts_icons .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contacts_icons .icon i {
+    color: #fff;
+    font-size: 35px;
+}

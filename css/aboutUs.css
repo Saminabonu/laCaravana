@@ -1,0 +1,23 @@
+.about {
+    background-color: #000;
+    padding: 140px 75px 140px 115px;
+}
+
+.about .aboutUs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs_info {
+    width: 474px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutUs_info p {
+    text-align: left;
+}
+
+.aboutUs_info button {
+    margin-top: 120px;
+}
